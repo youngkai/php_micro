@@ -1,0 +1,15 @@
+{
+    "require": {
+        "grpc/grpc": "^1.27",
+        "ext-grpc": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GPBMetadata\\":"GPBMetadata/",
+            "channel\\": "channel/",
+            "Star\\": "Go/Micro/Service/Star/",
+            "StarClient\\": "Go/Micro/Service/Star/StarClient",
+            "Go\\": "Go/"
+        }
+    }
+}
